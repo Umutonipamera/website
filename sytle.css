@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+nav{
+    width:96% ;
+    background:blueviolet;
+    overflow: auto;  
+    padding: 2%;
+    text-align-last: right; 
+
+
+}
+ul{
+   padding:0 ; 
+   margin:0 ;
+   list-style:none ;
+}
+
+#logo{
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+nav a{
+    width:100px;
+    display:block;
+    text-decoration: none;
+    font-family: Arial;
+    float: right;
+    color:black ;
+    
+    
+}
+nav a :hover{
+    background:purple ;
+    transition: 0.5s;
+    text-transform:uppercase;
+}
+
+.main {
+    background-image: url(/images/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#welcome-btn{
+    margin-left: 30px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(218, 63, 218);
+    
+}
+#title{
+    margin-top: 12%;
+}
+.row{
+    display:flex;
+}
+.cont{
+    background-color: rgba(228, 244, 245, 0.472);
+}
+
+#textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+  }
+  input[type=submit]{
+      width:10%;
+      margin-top: 0;
+    background-color: #04AA6D;
+    color: white;
+    padding: 4px 5px;
+    border: none;
+   
+  }
+  .form {
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+    padding-right: 90px;
+    margin-bottom:10px ;
+    
+  }
+        
+      #click-button{
+        margin-top:30% ;
+        padding-left:10px;
+        padding-right:15px; 
+        padding-top :5px; 
+        padding-bottom:5px; 
+        background-color:purple ;
+        color:white; 
+      }
+      
+      .body{
+      background-image:url(/images/background.jpeg) ;
+      height:100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+    
+    .aboutContainer{
+        border: 2px solid purple;
+        margin: 50px;
+    }
+    #bio{
+        color:violet;
+    }
+    #ed{
+        color:violet;
+    }
+    #pam{
+        color:violet;
+    }
+    
+    #summary{
+        color:violet;
+        padding-left:40%;
+    }
+        
+    .blogs_container{
+        border:2px solid purple;
+        margin:20px;
+    }
+        .row{
+            display:flex;
+        }
+        .blog2_container{
+            display:flex; 
+
+        }
+        .blog1{
+            display:flex;
+        }
+        #blg{
+            color:violet;
+        }
+    #book{
+      color:purple;
+      padding-top: 10px;
+      text-align:center; 
+    }
+    .media{
+       padding-left:20px ; 
+       margin-top: 80px;
+    }
+    #me{
+      padding-bottom: 20px;
+      font-size: 20px;
+    }
+    .column P{
+        font-size:20px;
+        margin-left:250px;
+    }
+    .colum{
+        font-size:20px;
+    }
+        
+#blg{
+    padding-right:20px;
+    text-align: center;
+
+}
+#image{
+    padding-right:20px ;
+}
+  
+  
+
